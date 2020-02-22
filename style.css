@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color:blue;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:70%;
+    margin: 10px auto 100px auto;
+    font-size: 1.5rem;
+    text-align: center;   
+    border-radius: 10px;
+    border-color: blue;
+}
+
+input{
+    margin: 10px auto;
+    width:70%;
+}
+
+label{
+    margin:20px 0 5px 0;
+}
+
+button{
+    width:100px;
+    margin:0 auto;
+}
+
+#data{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#data ol{
+    list-style-position: inside;
+    margin-left: -5%;
+    font-size: 1.5rem;
+}
+
+
+#response{
+    width:30%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+}
+
+#licence{
+    width: 50%;
+    font-size: 1.5rem;
+    margin:10px auto;
+    text-align: center;
+}
+
+@media screen and (min-width:767px){
+    form fieldset{
+        width:30%;
+    }
+}

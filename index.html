@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Liste de courses</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Liste de courses</h1>
+	</header>
+	<main>
+		<h2>Créez votre liste</h2>
+		<div id='response'></div>
+		<div id='data'>
+			<ol id="list"></ol>
+			<button id='deleteList'>delete list</button>
+		</div>	
+		<form>
+			<fieldset>
+				<legend>Formulaire liste de course</legend>
+				<label for="produit">nouveau produit</label>
+				<input type="text" name="produit" id="product" value="">
+				<button type="submit" id="add">Ajouter</button>
+				<label for="">supprimer produit</label>
+				<input type="text" name="supprimer" id="deleteItem">
+				<button type="submit" id="delete">supprimer</button>
+
+			</fieldset>	
+		</form>
+	</main>
+	<small id="licence">
+		<div>&copyCopyright 2020 by Nada_T</div>
+	</small>
+<script type="text/javascript" src="list.js"></script>
+<script src="class_liste_course.js"></script>
+
+</body>
+</html>
