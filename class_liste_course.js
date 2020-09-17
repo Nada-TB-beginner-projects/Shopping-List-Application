@@ -37,7 +37,7 @@ class List{
 
     checkItemExistence(item){
         let arr=this.getList();
-        if(arr.indexOf(item)<0){
+        if(arr.indexOf(item.toLowerCase())<0){
             return false;
         }else{
             return true;
@@ -46,8 +46,8 @@ class List{
 
     addItem(item){
         let arr=this.getList();
-        if(this.checkItemExistence(item)==false){
-            arr.push(item);
+        if(this.checkItemExistence(item.toLowerCase())==false){
+            arr.push(item.toLowerCase());
             this.sendList(arr);
             return"";
         }else{
@@ -57,8 +57,8 @@ class List{
 
     deleteItem(item){
         let arr=this.getList();
-        if(this.checkItemExistence(item)==true){
-            arr.splice(arr.indexOf(item),1);
+        if(this.checkItemExistence(item.toLowerCase())==true){
+            arr.splice(arr.indexOf(item.toLowerCase()),1);
             this.sendList(arr);
             return"";
         }else{
