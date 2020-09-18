@@ -1,14 +1,17 @@
 # Shopping List french version
 
 ## View result here [link](https://nada-tb.github.io/shoppingList/)
+* ### [The application's features](#the-applications-features-)
+* ### [Development process](#development-process-1)	
+* ### [Programming concepts applied](#programming-concepts-applied-1)
 
-## The application's features :
+# The application's features :
 * Create a shopping list and store it in localStorage.
  * If a shopping list exists, it appears on load.
 * Create a form with two inputs: add the item and delete an item.
 * Create a button  to delete the whole list
 
-## Development process:
+# Development process:
 * Create a  javascript class list, add methods to:
 
     1- retrieve the shopping list if it exists other way create the shopping list and store it in localStorage.
@@ -23,7 +26,7 @@
     
  * Add an event to each button with the function that matches its purpose.
 	
-## Programming concepts applied:
+# Programming concepts applied:
 JavaScript |
 ----------- |
 Classes ES6 |
